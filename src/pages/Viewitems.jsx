@@ -82,7 +82,7 @@ export default function ViewItems() {
                     <div className="flex flex-col gap-4 h-screen">
                         <button
                             onClick={() => setSelectedItem(null)}
-                            className="self-end text-red-500 hover:text-red-800"
+                            className="self-end text-red-500 hover:text-red-800 sticky top-0"
                         >
                             <IoIosCloseCircle size={40} // size in px
                                 className="text-red-500 cursor-pointer hover:scale-110 transition-transform"
