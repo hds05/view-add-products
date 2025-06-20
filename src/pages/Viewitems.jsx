@@ -76,8 +76,8 @@ export default function ViewItems() {
                     isOpen={true}
                     onRequestClose={() => setSelectedItem(null)}
                     contentLabel="Item Details"
-                    className="bg-white max-w-2xl p-6 mx-auto rounded-xl shadow-xl mt-1 outline-none"
-                    overlayClassName="fixed top-0 inset-0 bg-black bg-opacity-50 flex items-start justify-center z-50"
+                    className="bg-white max-w-2xl w-full max-h-[90vh] p-6 mx-auto rounded-xl shadow-xl mt-10 overflow-y-auto scrollbar-thin relative"
+                    overlayClassName="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-start justify-center z-50"
                 >
                     <div className="flex flex-col gap-4 h-screen">
                         <button
